@@ -1,0 +1,4 @@
+##ignora el .obsidian de datastructures
+
+*.exe
+
