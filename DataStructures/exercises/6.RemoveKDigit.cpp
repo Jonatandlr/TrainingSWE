@@ -22,11 +22,13 @@ public:
             }
             st.push(n);
         }
+
         while (control < k)
         {
             st.pop();
             control++;
         }
+
         if (st.empty())
         {
             return "0";
@@ -71,10 +73,11 @@ public:
 // }
 
 // code  driver
+
 int main()
 {
     Solution solution;
-    string num = "10"; // output hope 1219
+    string num = "0"; // output hope 1219
     int k = 1;
     cout << solution.removeKdigits(num, k) << endl;
     return 0;
